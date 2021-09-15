@@ -15,8 +15,12 @@ end
 
 # Write code that prints the phrase 'She sells seashells down by the seashore'
 # ten times:
-# YOUR CODE HERE
+10.times do
+  p "She sells seashells down by the seashore"
+end
 
 
 # Write code that prints the result of 5 + 7 a total of 9 timees
-# YOUR CODE HERE
+9.times do
+  p 5 + 7
+end
