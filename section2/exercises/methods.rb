@@ -12,19 +12,37 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  p name
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+def addition(a,b)
+  sum = a + b
+  puts sum
+end
+
+addition(2,3)
+addition(3,5)
+addition(5,8)
+
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+
+def teams(team_a, team_b)
+  puts("The #{team_a} play the #{team_b} this week.")
+end 
+
+teams(packers, bears)
+teams(brewers, cubs)
+teams(bucks, bulls)
+
 
 
 #-------------------
@@ -38,4 +56,6 @@ print_name("Albus Dumbledore")
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-
+#For my previous method, I named the methods "teams", since the method assembles a
+#sentence regarding what teams play each other. I named the first parameter
+# "team_a", as the first team, and the second "team_b"
