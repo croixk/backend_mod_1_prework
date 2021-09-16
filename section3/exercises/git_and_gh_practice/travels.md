@@ -1,0 +1,1 @@
+My favorite travel experience was a road trip to northern Mexico to rock climb in Potrero Chico with some friends. The rock climbing was really unique, the weather was perfect, and we got tacos every night from a taco stand in town. 
