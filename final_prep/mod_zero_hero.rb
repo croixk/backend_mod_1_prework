@@ -46,7 +46,7 @@ print arch_enemies(2)
 
 # Write some code to add a new arch_enemy to the arch_enemies array
 
-
+arch_enemies.append('dave')
 
 # Print the arch_enemies array to terminal to ensure you added a new arch_enemey
 
@@ -54,7 +54,7 @@ print arch_enemies
 
 # Remove the first sidekick from the sidekicks array
 
-
+arch_enemies.shift 
 
 
 # Print the sidekicks array to terminal to ensure you added a new sidekick
@@ -103,8 +103,8 @@ excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
 #   - luckyNumbers (array)
 #   - address (hash with following key/values: number , street , state, zip)
 
-scary_monster = {name => 'gus', smell => 'bad', weight => 150, citiesDestroyed = [], luckyNumbers = [], address = {number => 50, 
-  street => '', state => '', zip => 50220}
+scary_monster = {name => 'gus', smell => 'bad', weight => 150, citiesDestroyed = ['new york', 'london'], luckyNumbers = [4, 5, 6], address = {number => 50, 
+  street => 'doty', state => 'wi', zip => 50220}
   
 
 # Create a new class called SuperHero
