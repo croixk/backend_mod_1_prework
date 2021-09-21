@@ -2,11 +2,20 @@
 
 # Declare two variables - hero_name AND special_ability - set to strings
 
+hero_name = 'The fly'
+special_ability = 'flying' 
+
 # Declare two variables - greeting AND catchphrase
 #   greeting should be assigned to a string that uses interpolation to include the hero_name
 #   catchphrase should be assigned to a string that uses interpolation to include the special_ability
 
+greeting = 'hello, this is #{hero_name}'
+catchphrase = '#{special_ability} to the rescue!'
+
+
 # Declare two variables - power AND energy - set to integers
+
+power
 
 # Declare two variables - full_power AND full_energy
 #   full_power should multiply your current power by 500
