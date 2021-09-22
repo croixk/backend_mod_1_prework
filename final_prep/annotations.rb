@@ -45,21 +45,21 @@ def fizzbuzz(num_1, num_2, range)
   # for each of "range", do the below - i iterates from 1 to range
   (1..range).each do |i|
    # if statement - calculates whether remainder = 0 when i is divided by both num_1 and num_2 
-    # this is the 
+    # this is equivalent to figuring out if num_1 and num_2 both divide evenly in. 
     if i % num_1 === 0 && i % num_2 === 0
-      
+      # print "fizzbuzz " to screen if true 
       puts 'fizzbuzz'
-    
+    # if quotient is zero for num_1 but not num_2 - print fizz 
     elsif i % num_1 === 0
-    
+     # print fizz 
       puts 'fizz'
-    
+    #if quotient = 0 for num_2 but not num_1 - print buzz 
     elsif i % num_2 === 0
-    
+    # print buzz 
       puts 'buzz'
-    
+    # if none of these are true - print i 
     else
-    
+    # print i 
       puts i
    
     end
@@ -68,7 +68,8 @@ def fizzbuzz(num_1, num_2, range)
 
 end
 
-
+# run method fizzbuzz - num_1 and num_2 = 3 and 5, i = 1 to 100 
 fizzbuzz(3, 5, 100)
 
+# run method fizzbuzz - num_1 and num_2 = 5 and 8, i = 1 to 400
 fizzbuzz(5, 8, 400)
