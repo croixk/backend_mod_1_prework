@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Challenge - See if you can follow the instructions and complete the exercise in under 30 minutes!
 
 # Declare two variables - hero_name AND special_ability - set to strings
@@ -150,12 +149,15 @@ instance2 = SuperHero.new
 
 # Reflection
 # What parts were most difficult about this exerise?
-#FINISH THIS 
 
+# I thought the most difficult part was recalling some specific syntax, particularly
+# for classes and methods
 
 # What parts felt most comfortable to you?
 
-# What skills do you need to continue to practice before starting Mod 1?
-=======
+# I thought the older material, such as variables and interpolation, felt very comfortable now
 
->>>>>>> 33019597c30fdb88b53b3ffbc90cf7e4f0d3e794
+
+# What skills do you need to continue to practice before starting Mod 1?
+
+# I need to keep working on the classes and methods so I won't have to look things up
