@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Challenge - See if you can follow the instructions and complete the exercise in under 30 minutes!
 
 # Declare two variables - hero_name AND special_ability - set to strings
@@ -155,3 +156,6 @@ instance2 = SuperHero.new
 # What parts felt most comfortable to you?
 
 # What skills do you need to continue to practice before starting Mod 1?
+=======
+
+>>>>>>> 33019597c30fdb88b53b3ffbc90cf7e4f0d3e794
