@@ -38,11 +38,11 @@ sidekicks = ['jill', 'keith', 'stewart']
 
 # Print the first sidekick to your terminal
 
-print sidekicks(0)
+print sidekicks[0]
 
 # Print the last arch_enemy to the terminal
 
-print arch_enemies(2)
+print arch_enemies[2]
 
 # Write some code to add a new arch_enemy to the arch_enemies array
 
@@ -68,17 +68,18 @@ print sidekicks
 
 def assess_situation (danger_level, save_the_day, bad_excuse)
 
-if danger_level > 50
-  puts bad_excuse
+  if danger_level > 50
+    puts bad_excuse
 
-elsif danger_level >= 10
-  puts save_the_day
+  elsif danger_level >= 10
+    puts save_the_day
 
-else
-  'Meh. Hard pass'
+  else
+    'Meh. Hard pass'
+
+  end
 
 end
-
 
 # Your function should include an if/else statement that meets the following criteria
 #   - Danger levels that are above 50 are too scary for your hero. Any danger level that is above 50 should result in printing the bad_excuse to the terminal
@@ -103,8 +104,8 @@ excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
 #   - luckyNumbers (array)
 #   - address (hash with following key/values: number , street , state, zip)
 
-scary_monster = {name => 'gus', smell => 'bad', weight => 150, citiesDestroyed = ['new york', 'london'], luckyNumbers = [4, 5, 6], address = {number => 50,
-  street => 'doty', state => 'wi', zip => 50220}
+
+scary_monster = {'name' => 'gus', 'smell' => 'bad', 'weight' => 150, 'citiesDestroyed' => ['new york', 'london'], 'luckyNumbers' => [4, 5, 6], 'address' => {'number' => 50, 'street' => 'doty', 'state' => 'wi', 'zip' => 50220}}
 
 
 # Create a new class called SuperHero
@@ -117,12 +118,18 @@ scary_monster = {name => 'gus', smell => 'bad', weight => 150, citiesDestroyed =
 #   - power_level = 100
 #   - energy_level = 50
 
-Class Superhero
+class SuperHero
 attr_reader :name, :super_power, :age
 
-  arch_nemesis = "The Syntax Error"
-  power_level = 100
-  energy_level = 50
+  @@arch_nemesis = "The Syntax Error"
+  @@power_level = 100
+  @@energy_level = 50
+
+  def initialize(name, super_power, age)
+    @name = name
+    @super_power = super_power
+    @age = age
+  end
 
   def say_name
     puts name
@@ -144,8 +151,8 @@ end
 #   - gain_power, should take an argument of a number and INCREASE the power_level by that number
 
 # - Create 2 instances of your SuperHero class
-instance1 = SuperHero.new
-instance2 = SuperHero.new
+instance1 = SuperHero.new("joe", "strength", 50)
+instance2 = SuperHero.new("bob", 'flying', 100)
 
 # Reflection
 # What parts were most difficult about this exerise?
